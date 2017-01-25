@@ -1,0 +1,24 @@
+﻿@model IEnumerable<Banco.Entidades.OrdenPagoBe>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="panel-body">
+    <div>
+        <a href="/OrdenPago/Create">Registrar</a>
+    </div>
+    @(Html.TableFor<Banco.Entidades.OrdenPagoBe>()
+        .Columns(column =>
+        {
+            column.Expression(p => p.IdOrden).Title("ID");
+            column.Expression(p => p.Banco).Title("Banco");
+            column.Expression(p => p.Sucursal).Title("Sucursal");
+            column.Expression(p => p.Moneda).Title("Moneda");
+            column.Expression(p => p.Estado).Title("Estado");
+            column.Expression(p => p.Monto).Title("Monto");
+            column.Expression(p => p.FechaRegistroStr).Title("Fecha Registro");
+        })
+        .DataSource(this.Model)
+        .ToHtml("basicTable", "table-bordered table-responsive", "/OrdenPago/Edit?id=", "/OrdenPago/Delete?id=")
+    )
+</div>

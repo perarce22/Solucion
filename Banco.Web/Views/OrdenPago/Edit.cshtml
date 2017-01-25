@@ -1,0 +1,53 @@
+﻿@model Banco.Entidades.OrdenPagoBe
+@{
+    ViewBag.Title = "Registrar";
+}
+
+@using (Html.BeginForm("Edit", "OrdenPago", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    @Html.AntiForgeryToken()
+    <h4>Actualizar Orden Pago.</h4>
+    <hr />
+    @Html.ValidationSummary("", new { @class = "text-danger" })
+    <div class="form-group">
+        @Html.LabelFor(m => m.IdBanco, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.DropDownListFor(m => m.IdBanco, Model.BancosList, new { @class = "form-control", onchange = " if(document.getElementById('Monto').value ==\"\") document.getElementById('Monto').value=0;this.form.submit();" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.IdSucursal, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.DropDownListFor(m => m.IdSucursal, Model.SucursalList, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.IdMoneda, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.DropDownListFor(m => m.IdMoneda, Model.MonedaList, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.IdEstado, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.DropDownListFor(m => m.IdEstado, Model.EstadoList, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Monto, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.Monto, new { @class = "form-control" })
+            @Html.HiddenFor(m => m.IdOrden, new { @class = "form-control" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" class="btn btn-default" value="Registrar" />
+        </div>
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

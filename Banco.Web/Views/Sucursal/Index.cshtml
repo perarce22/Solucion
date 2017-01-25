@@ -1,0 +1,26 @@
+﻿@model IEnumerable<Banco.Entidades.SucursalBe>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="panel-body">
+    <div>
+        <a href="/Sucursal/Create">Registrar</a>
+    </div>
+    @(Html.TableFor<Banco.Entidades.SucursalBe>()
+        .Columns(column =>
+        {
+            column.Expression(p => p.IdSucursal).Title("ID");
+            column.Expression(p => p.NombreBanco).Title("Banco");
+            column.Expression(p => p.Nombre).Title("Nombre");
+            column.Expression(p => p.Direccion).Title("Direccion");
+            column.Expression(p => p.FechaRegistroStr).Title("Fecha Registro");
+
+        })
+        .DataSource(this.Model)
+        .ToHtml("basicTable", "table-bordered table-responsive", "/Sucursal/Edit?id=", "/Sucursal/Delete?id=")
+    )
+</div>
+
+
+
