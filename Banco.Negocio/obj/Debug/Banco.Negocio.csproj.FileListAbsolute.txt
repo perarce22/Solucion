@@ -1,0 +1,13 @@
+C:\Users\Consultor2015\Documents\Visual Studio 2015\Projects\Exam\Parte01\Banco.Negocio\bin\Debug\Banco.Negocio.dll
+C:\Users\Consultor2015\Documents\Visual Studio 2015\Projects\Exam\Parte01\Banco.Negocio\bin\Debug\Banco.Negocio.pdb
+C:\Users\Consultor2015\Documents\Visual Studio 2015\Projects\Exam\Parte01\Banco.Negocio\obj\Debug\Banco.Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Consultor2015\Documents\Visual Studio 2015\Projects\Exam\Parte01\Banco.Negocio\obj\Debug\Banco.Negocio.dll
+C:\Users\Consultor2015\Documents\Visual Studio 2015\Projects\Exam\Parte01\Banco.Negocio\obj\Debug\Banco.Negocio.pdb
+C:\Users\Consultor2015\Documents\Visual Studio 2015\Projects\Exam\Parte01\Banco.Negocio\bin\Debug\Banco.AccesoDatos.dll
+C:\Users\Consultor2015\Documents\Visual Studio 2015\Projects\Exam\Parte01\Banco.Negocio\bin\Debug\Banco.Entidades.dll
+C:\Users\Consultor2015\Documents\Visual Studio 2015\Projects\Exam\Parte01\Banco.Negocio\bin\Debug\Banco.Util.dll
+C:\Users\Consultor2015\Documents\Visual Studio 2015\Projects\Exam\Parte01\Banco.Negocio\bin\Debug\Banco.AccesoDatos.pdb
+C:\Users\Consultor2015\Documents\Visual Studio 2015\Projects\Exam\Parte01\Banco.Negocio\bin\Debug\Banco.Entidades.pdb
+C:\Users\Consultor2015\Documents\Visual Studio 2015\Projects\Exam\Parte01\Banco.Negocio\bin\Debug\Banco.Util.pdb
+C:\Users\Consultor2015\Documents\Visual Studio 2015\Projects\Exam\Parte01\Banco.Negocio\bin\Debug\System.Web.Mvc.dll
+C:\Users\Consultor2015\Documents\Visual Studio 2015\Projects\Exam\Parte01\Banco.Negocio\bin\Debug\System.Web.Mvc.xml
