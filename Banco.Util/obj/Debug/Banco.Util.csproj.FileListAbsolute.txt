@@ -1,0 +1,5 @@
+C:\Users\Consultor2015\Documents\Visual Studio 2015\Projects\Exam\Parte01\Banco.Util\bin\Debug\Banco.Util.dll
+C:\Users\Consultor2015\Documents\Visual Studio 2015\Projects\Exam\Parte01\Banco.Util\bin\Debug\Banco.Util.pdb
+C:\Users\Consultor2015\Documents\Visual Studio 2015\Projects\Exam\Parte01\Banco.Util\obj\Debug\Banco.Util.csprojResolveAssemblyReference.cache
+C:\Users\Consultor2015\Documents\Visual Studio 2015\Projects\Exam\Parte01\Banco.Util\obj\Debug\Banco.Util.dll
+C:\Users\Consultor2015\Documents\Visual Studio 2015\Projects\Exam\Parte01\Banco.Util\obj\Debug\Banco.Util.pdb
