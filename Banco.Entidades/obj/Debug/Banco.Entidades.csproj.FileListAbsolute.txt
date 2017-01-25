@@ -1,0 +1,7 @@
+C:\Users\Consultor2015\Documents\Visual Studio 2015\Projects\Exam\Parte01\Banco.Entidades\bin\Debug\Banco.Entidades.dll
+C:\Users\Consultor2015\Documents\Visual Studio 2015\Projects\Exam\Parte01\Banco.Entidades\bin\Debug\Banco.Entidades.pdb
+C:\Users\Consultor2015\Documents\Visual Studio 2015\Projects\Exam\Parte01\Banco.Entidades\obj\Debug\Banco.Entidades.dll
+C:\Users\Consultor2015\Documents\Visual Studio 2015\Projects\Exam\Parte01\Banco.Entidades\obj\Debug\Banco.Entidades.pdb
+C:\Users\Consultor2015\Documents\Visual Studio 2015\Projects\Exam\Parte01\Banco.Entidades\bin\Debug\System.Web.Mvc.dll
+C:\Users\Consultor2015\Documents\Visual Studio 2015\Projects\Exam\Parte01\Banco.Entidades\bin\Debug\System.Web.Mvc.xml
+C:\Users\Consultor2015\Documents\Visual Studio 2015\Projects\Exam\Parte01\Banco.Entidades\obj\Debug\Banco.Entidades.csprojResolveAssemblyReference.cache
